@@ -42,8 +42,8 @@ sensor:
     type: characteristic
     ble_client_id: pinecil
     id: PINECIL_BULK_DATA
-    service_uuid: '9eae1adb-9d0d-48c5-a6e7-ae93f0ea37b0'
-    characteristic_uuid: '00000001-0000-1000-8000-00805f9b34fb'
+    service_uuid: '9eae1000-9d0d-48c5-aa55-33e27f9bc533'
+    characteristic_uuid: '9eae1001-9d0d-48c5-aa55-33e27f9bc533'
     lambda: |-
       uint32_t *data = (uint32_t *)(x.data());
       
